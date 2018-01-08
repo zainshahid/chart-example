@@ -1,30 +1,30 @@
-body {
+#apple-chart-id body {
   font: 10px sans-serif;
 }
 
-.axis path,
+#apple-chart-id .axis path,
 .axis line {
   fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
 }
 
-.x.axis path {
+#apple-chart-id .x.axis path {
   display: none;
 }
 
-.line {
+#apple-chart-id .line {
   fill: none;
   stroke: steelblue;
   stroke-width: 1.5px;
 }
 
-.overlay {
+#apple-chart-id .overlay {
   fill: none;
   pointer-events: all;
 }
 
-.focus circle {
+#apple-chart-id .focus circle {
   fill: none;
   stroke: steelblue;
 }
